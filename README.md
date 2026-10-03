@@ -1,22 +1,18 @@
 # ChoskoLabs
 
-**Academia práctica de ciberseguridad donde el curso se recorre jugando wargames.**
-Cada nivel está diseñado para que descubras algo por ti mismo y después entiendas qué hiciste,
-por qué funcionó, para qué sirve y cómo se evita.
+Mi idea para aprender ciberseguridad jugando y entender qué narices acabas de hacer. En ChoskoLabs entras en una aplicación ficticia, investigas, encuentras el fallo y capturas la flag. Después llega la explicación: qué pasó, por qué funcionó y cómo se arregla.
 
-> No enseñamos a conseguir flags. Enseñamos a entender por qué se pueden conseguir.
+Porque sacar una flag y quedarse igual de perdido tiene poca gracia, chacho.
 
-## Qué es esto
+> La flag es parte del reto. Entender por qué has podido conseguirla es lo que te llevas.
 
-ChoskoLabs es una web jugable directamente desde el navegador (**click and hack**): no necesitas
-Kali, máquinas virtuales, Docker ni herramientas externas. Entras, investigas una aplicación
-ficticia, encuentras el fallo, capturas la flag y —lo más importante— completas un **post-lab** que
-te explica de verdad lo que acabas de hacer.
+## Cómo va la cosa
 
-Esta es la **v0.1**: una única categoría, **Web Wargame**, con un tutorial jugable, cinco niveles y
-un checkpoint. Calidad sobre cantidad.
+Se juega directamente en el navegador. Abres el laboratorio, investigas y pruebas; no tienes que instalar Kali, máquinas virtuales, Docker ni herramientas externas. Al terminar el reto, el **post-lab** te explica lo que acabas de hacer para que puedas reconocerlo en otro sitio.
 
-## Puesta en marcha
+Ahora mismo es la **v0.1**: **Web Wargame**, un tutorial jugable, cinco niveles y un reto de comprobación. Esa es la parte que existe; el resto del recorrido se irá ampliando.
+
+## Cómo arrancarlo
 
 ```bash
 pnpm install
@@ -25,7 +21,7 @@ pnpm dev
 
 Abre http://localhost:3000.
 
-### Scripts
+### Comandos a mano
 
 | Comando | Qué hace |
 | --- | --- |
@@ -54,8 +50,7 @@ docs/                Documentación (empieza por VISION.md)
 
 ## Documentación
 
-**El repositorio es su propia memoria.** Cualquier agente o persona debe poder continuar el proyecto
-leyendo `docs/`, sin conversaciones previas. Empieza aquí:
+Para retomar esto sin tener que adivinar qué se hizo la última vez, el contexto está en `docs/`. Empieza por estos archivos:
 
 1. [`docs/PROJECT_CONTEXT.md`](docs/PROJECT_CONTEXT.md) — qué es ChoskoLabs en ~5 minutos.
 2. [`docs/CURRENT_STATE.md`](docs/CURRENT_STATE.md) — qué existe ahora mismo.
