@@ -1,18 +1,20 @@
 # ChoskoLabs
 
-Quería aprender ciberseguridad haciendo cosas y, sobre todo, entender qué narices había pasado después. En **ChoskoLabs** entras en una aplicación ficticia, investigas, encuentras el fallo y capturas la flag. Luego tienes la explicación de qué pasó, por qué funcionó y cómo se arregla.
+Laboratorios de ciberseguridad que se juegan desde el navegador. Cada reto combina investigación, captura de una flag y explicación de lo ocurrido.
 
-Porque sacar una flag y quedarse igual de perdido tiene poca gracia, chacho.
+La versión 0.1 incluye Web Wargame, un tutorial, cinco niveles y un reto de comprobación. El objetivo es comprender el fallo y su corrección después de resolverlo.
 
-> La flag es parte del reto. Entender por qué has podido conseguirla es lo que te llevas.
+[Cómo funciona](#cómo-funciona) · [Instalación y arranque](#instalación-y-arranque) · [Estructura rápida](#estructura-rápida) · [Documentación](#documentación) · [Aviso](#aviso)
 
-## Cómo va la cosa
+---
+
+## Cómo funciona
 
 Se juega directamente en el navegador. Abres el laboratorio, investigas y pruebas; no tienes que instalar Kali, máquinas virtuales, Docker ni herramientas externas. Al terminar el reto, el **post-lab** te explica lo que acabas de hacer para que puedas reconocerlo en otro sitio.
 
 Ahora mismo es la **v0.1**: **Web Wargame**, un tutorial jugable, cinco niveles y un reto de comprobación. Esa es la parte que existe; el resto del recorrido se irá ampliando.
 
-## Cómo arrancarlo
+## Instalación y arranque
 
 ```bash
 pnpm install
