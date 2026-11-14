@@ -1,6 +1,6 @@
 # ChoskoLabs
 
-Mi idea para aprender ciberseguridad jugando y entender qué narices acabas de hacer. En ChoskoLabs entras en una aplicación ficticia, investigas, encuentras el fallo y capturas la flag. Después llega la explicación: qué pasó, por qué funcionó y cómo se arregla.
+Quería aprender ciberseguridad haciendo cosas y, sobre todo, entender qué narices había pasado después. En **ChoskoLabs** entras en una aplicación ficticia, investigas, encuentras el fallo y capturas la flag. Luego tienes la explicación de qué pasó, por qué funcionó y cómo se arregla.
 
 Porque sacar una flag y quedarse igual de perdido tiene poca gracia, chacho.
 
